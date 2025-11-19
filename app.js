@@ -57,7 +57,4 @@ btn.addEventListener("click", async (evt) => {
     // Show result on screen
     const message = document.querySelector(".msg");
     message.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount.toFixed(2)} ${toCurr.value}`;
-
-    console.log("RATE:", rate);
-    console.log("RESULT:", finalAmount);
 });
